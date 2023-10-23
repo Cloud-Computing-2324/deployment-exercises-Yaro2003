@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: uptime
-  namespace: argocd
+  namespace: default
 spec:
   sources:
   - repoURL: https://helm.irsigler.cloud
